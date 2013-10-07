@@ -20,7 +20,7 @@
     <form>
 
     <?php
-    foreach($contestants as $key => $value)  
+    foreach($_POST as $key => $value)  
     {
         echo $key. " is a " .$value. "<br>"; 
     }  
